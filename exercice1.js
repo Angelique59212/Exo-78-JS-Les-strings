@@ -11,7 +11,7 @@ let position = monTexte.indexOf("i");
 
 let myPosition = document.getElementById("position");
 myPosition.innerHtml = position;
-console.log(position)
+
 
 let news = monTexte.toUpperCase();
 
@@ -21,7 +21,7 @@ maChaine.innerHTML = news;
 
 for (let i = 0; i < monTexte.length; i++) {
     if (monTexte[i] === "a"){
-        // alert("lettre a trouvé");
+        alert("lettre a trouvé");
     }
 }
 
